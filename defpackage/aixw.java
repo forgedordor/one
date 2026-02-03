@@ -1,0 +1,35 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes3.dex */
+final class aixw extends fcyz implements fdat {
+    /* synthetic */ Object a;
+
+    public aixw(fcxy fcxyVar) {
+        super(2, fcxyVar);
+    }
+
+    @Override // defpackage.fdat
+    public final /* bridge */ /* synthetic */ Object a(Object obj, Object obj2) {
+        return ((aixw) c((aiya) obj, (fcxy) obj2)).b(fctx.a);
+    }
+
+    @Override // defpackage.fcyt
+    public final Object b(Object obj) throws Throwable {
+        fctl.b(obj);
+        aixz aixzVar = (aixz) ((aiya) this.a).toBuilder();
+        aixzVar.getClass();
+        aixzVar.copyOnWrite();
+        aiya aiyaVar = (aiya) aixzVar.instance;
+        aiyaVar.b |= 1;
+        aiyaVar.c = true;
+        return aiyb.a(aixzVar);
+    }
+
+    @Override // defpackage.fcyt
+    public final fcxy c(Object obj, fcxy fcxyVar) {
+        aixw aixwVar = new aixw(fcxyVar);
+        aixwVar.a = obj;
+        return aixwVar;
+    }
+}

@@ -1,0 +1,63 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+public final class emit extends evsn implements evui {
+    public static final emit a;
+    private static volatile evuo l;
+    public int b;
+    public int d;
+    public String c = "";
+    public String e = "";
+    public String f = "";
+    public String g = "";
+    public String h = "";
+    public String i = "";
+    public String j = "";
+    public String k = "";
+
+    static {
+        emit emitVar = new emit();
+        a = emitVar;
+        evsn.registerDefaultInstance(emit.class, emitVar);
+    }
+
+    private emit() {
+    }
+
+    @Override // defpackage.evsn
+    protected final Object dynamicMethod(evsm evsmVar, Object obj, Object obj2) {
+        evuo evsgVar;
+        int iOrdinal = evsmVar.ordinal();
+        if (iOrdinal == 0) {
+            return (byte) 1;
+        }
+        if (iOrdinal == 2) {
+            return newMessageInfo(a, "\u0001\t\u0000\u0001\u0001\t\t\u0000\u0000\u0000\u0001ဈ\u0000\u0002᠌\u0001\u0003ဈ\u0002\u0004ဈ\u0003\u0005ဈ\u0004\u0006ဈ\u0005\u0007ဈ\u0006\bဈ\u0007\tဈ\b", new Object[]{"b", "c", "d", elvq.a, "e", "f", "g", "h", "i", "j", "k"});
+        }
+        if (iOrdinal == 3) {
+            return new emit();
+        }
+        if (iOrdinal == 4) {
+            return new emis();
+        }
+        if (iOrdinal == 5) {
+            return a;
+        }
+        if (iOrdinal != 6) {
+            throw null;
+        }
+        evuo evuoVar = l;
+        if (evuoVar != null) {
+            return evuoVar;
+        }
+        synchronized (emit.class) {
+            evsgVar = l;
+            if (evsgVar == null) {
+                evsgVar = new evsg(a);
+                l = evsgVar;
+            }
+        }
+        return evsgVar;
+    }
+}

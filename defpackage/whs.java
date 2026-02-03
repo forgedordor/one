@@ -1,0 +1,24 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+final class whs extends fcyv {
+    Object a;
+    /* synthetic */ Object b;
+    final /* synthetic */ wiq c;
+    int d;
+    wlk e;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public whs(wiq wiqVar, fcxy fcxyVar) {
+        super(fcxyVar);
+        this.c = wiqVar;
+    }
+
+    @Override // defpackage.fcyt
+    public final Object b(Object obj) {
+        this.b = obj;
+        this.d |= Integer.MIN_VALUE;
+        return this.c.c(null, null, this);
+    }
+}

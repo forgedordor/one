@@ -1,0 +1,15 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+final class enzb implements evsv {
+    static final evsv a = new enzb();
+
+    private enzb() {
+    }
+
+    @Override // defpackage.evsv
+    public final boolean a(int i) {
+        return (i != 0 ? i != 1 ? i != 2 ? null : enzc.BACKUP_SCHEMA_OUT_OF_DATE : enzc.RESTORE_WORKFLOW_OUT_OF_DATE : enzc.UNKNOWN) != null;
+    }
+}

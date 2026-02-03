@@ -1,0 +1,93 @@
+package defpackage;
+
+import com.google.android.apps.messaging.shared.datamodel.data.datatypes.ConversationIdType;
+import com.google.android.apps.messaging.shared.datamodel.data.datatypes.MessageIdType;
+import j$.util.Optional;
+
+/* compiled from: PG */
+/* loaded from: classes7.dex */
+public final class bbtm {
+    public static final bbtk a(ConversationIdType conversationIdType, cnqj cnqjVar, bvdp bvdpVar, bvdk bvdkVar, avoe avoeVar, Optional optional, cbqz cbqzVar, MessageIdType messageIdType, basd basdVar, aonp aonpVar, ConversationIdType conversationIdType2, dqpg dqpgVar) {
+        bbtl bbtlVar = new bbtl();
+        bbtlVar.aD(dqpgVar.aB());
+        bbtlVar.a = conversationIdType;
+        bbtlVar.b = cnqjVar;
+        bbtlVar.c = null;
+        bbtlVar.d = bvdpVar;
+        bbtlVar.e = null;
+        bbtlVar.f = null;
+        bbtlVar.g = null;
+        bbtlVar.h = null;
+        bbtlVar.i = false;
+        bbtlVar.j = null;
+        bbtlVar.k = null;
+        bbtlVar.l = null;
+        bbtlVar.m = null;
+        bbtlVar.n = 0;
+        bbtlVar.o = bvdkVar;
+        bbtlVar.p = 0L;
+        bbtlVar.q = null;
+        bbtlVar.r = -1L;
+        bbtlVar.s = null;
+        bbtlVar.t = null;
+        bbtlVar.u = null;
+        bbtlVar.v = null;
+        bbtlVar.w = 0;
+        bbtlVar.x = true;
+        bbtlVar.y = null;
+        bbtlVar.z = true;
+        bbtlVar.A = false;
+        bbtlVar.B = 0;
+        bbtlVar.C = -1L;
+        bbtlVar.D = 0;
+        bbtlVar.E = 0;
+        bbtlVar.F = 0;
+        bbtlVar.G = false;
+        bbtlVar.H = false;
+        bbtlVar.I = null;
+        bbtlVar.J = 0L;
+        bbtlVar.K = null;
+        bbtlVar.L = null;
+        bbtlVar.M = null;
+        bbtlVar.N = true;
+        bbtlVar.O = false;
+        bbtlVar.P = avoeVar;
+        bbtlVar.Q = optional;
+        bbtlVar.R = false;
+        bbtlVar.S = false;
+        bbtlVar.T = cbqzVar;
+        bbtlVar.U = 0;
+        bbtlVar.V = messageIdType;
+        bbtlVar.W = 0L;
+        bbtlVar.X = 0L;
+        bbtlVar.Y = 0;
+        bbtlVar.Z = 0;
+        bbtlVar.aa = false;
+        bbtlVar.ab = 0;
+        bbtlVar.ac = 0;
+        bbtlVar.ad = basdVar;
+        bbtlVar.ae = -1;
+        bbtlVar.af = null;
+        bbtlVar.ag = -2;
+        bbtlVar.ah = null;
+        bbtlVar.ai = null;
+        bbtlVar.aj = null;
+        bbtlVar.ak = -1L;
+        bbtlVar.al = 0L;
+        bbtlVar.am = null;
+        bbtlVar.an = null;
+        bbtlVar.ao = null;
+        bbtlVar.ap = null;
+        bbtlVar.aq = null;
+        bbtlVar.ar = null;
+        bbtlVar.as = aonpVar;
+        bbtlVar.at = null;
+        bbtlVar.au = 0L;
+        bbtlVar.av = 0;
+        bbtlVar.aw = null;
+        bbtlVar.ax = 0L;
+        bbtlVar.ay = conversationIdType2;
+        bbtlVar.cM = dqpgVar.aC();
+        return bbtlVar;
+    }
+}

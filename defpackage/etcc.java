@@ -1,0 +1,23 @@
+package defpackage;
+
+import java.io.IOException;
+import java.net.InetAddress;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+final class etcc extends esyv {
+    @Override // defpackage.esyv
+    public final /* bridge */ /* synthetic */ Object a(etdb etdbVar) {
+        if (etdbVar.t() != 9) {
+            return InetAddress.getByName(etdbVar.j());
+        }
+        etdbVar.p();
+        return null;
+    }
+
+    @Override // defpackage.esyv
+    public final /* bridge */ /* synthetic */ void b(etdd etddVar, Object obj) throws IOException {
+        InetAddress inetAddress = (InetAddress) obj;
+        etddVar.m(inetAddress == null ? null : inetAddress.getHostAddress());
+    }
+}

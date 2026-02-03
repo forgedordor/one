@@ -1,0 +1,49 @@
+package defpackage;
+
+import java.util.UUID;
+
+/* compiled from: PG */
+/* loaded from: classes6.dex */
+public final class aysh extends fcyz implements fdat {
+    int a;
+    final /* synthetic */ aysi b;
+    final /* synthetic */ aytc c;
+    final /* synthetic */ UUID d;
+    final /* synthetic */ azva e;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public aysh(aysi aysiVar, aytc aytcVar, UUID uuid, azva azvaVar, fcxy fcxyVar) {
+        super(2, fcxyVar);
+        this.b = aysiVar;
+        this.c = aytcVar;
+        this.d = uuid;
+        this.e = azvaVar;
+    }
+
+    @Override // defpackage.fdat
+    public final /* bridge */ /* synthetic */ Object a(Object obj, Object obj2) {
+        return ((aysh) c((fdjx) obj, (fcxy) obj2)).b(fctx.a);
+    }
+
+    @Override // defpackage.fcyt
+    public final Object b(Object obj) throws Exception {
+        fcyl fcylVar = fcyl.a;
+        int i = this.a;
+        fctl.b(obj);
+        if (i != 0) {
+            return obj;
+        }
+        aysi aysiVar = this.b;
+        aytc aytcVar = this.c;
+        UUID uuid = this.d;
+        azva azvaVar = this.e;
+        this.a = 1;
+        Object objB = aysiVar.b(aytcVar, uuid, azvaVar, this);
+        return objB == fcylVar ? fcylVar : objB;
+    }
+
+    @Override // defpackage.fcyt
+    public final fcxy c(Object obj, fcxy fcxyVar) {
+        return new aysh(this.b, this.c, this.d, this.e, fcxyVar);
+    }
+}

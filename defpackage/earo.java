@@ -1,0 +1,25 @@
+package defpackage;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import java.util.List;
+
+/* compiled from: PG */
+/* loaded from: classes4.dex */
+public final class earo extends eapf {
+    public static final Parcelable.Creator<earo> CREATOR = new earn();
+
+    public earo(List list) {
+        super(list);
+    }
+
+    @Override // android.os.Parcelable
+    public final int describeContents() {
+        return 0;
+    }
+
+    @Override // android.os.Parcelable
+    public final void writeToParcel(Parcel parcel, int i) {
+        parcel.writeList(this.a);
+    }
+}

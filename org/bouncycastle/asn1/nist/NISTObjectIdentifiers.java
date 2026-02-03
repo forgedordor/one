@@ -1,0 +1,103 @@
+package org.bouncycastle.asn1.nist;
+
+import org.bouncycastle.asn1.ASN1ObjectIdentifier;
+
+/* compiled from: PG */
+/* loaded from: classes6.dex */
+public interface NISTObjectIdentifiers {
+    public static final ASN1ObjectIdentifier a;
+    public static final ASN1ObjectIdentifier b;
+    public static final ASN1ObjectIdentifier c;
+    public static final ASN1ObjectIdentifier d;
+    public static final ASN1ObjectIdentifier e;
+    public static final ASN1ObjectIdentifier f;
+    public static final ASN1ObjectIdentifier g;
+    public static final ASN1ObjectIdentifier h;
+    public static final ASN1ObjectIdentifier i;
+    public static final ASN1ObjectIdentifier j;
+    public static final ASN1ObjectIdentifier k;
+    public static final ASN1ObjectIdentifier l;
+    public static final ASN1ObjectIdentifier m;
+    public static final ASN1ObjectIdentifier n;
+    public static final ASN1ObjectIdentifier o;
+    public static final ASN1ObjectIdentifier p;
+    public static final ASN1ObjectIdentifier q;
+    public static final ASN1ObjectIdentifier r;
+    public static final ASN1ObjectIdentifier s;
+    public static final ASN1ObjectIdentifier t;
+    public static final ASN1ObjectIdentifier u;
+
+    static {
+        ASN1ObjectIdentifier aSN1ObjectIdentifier = new ASN1ObjectIdentifier("2.16.840.1.101.3.4");
+        a = aSN1ObjectIdentifier;
+        ASN1ObjectIdentifier aSN1ObjectIdentifierF = aSN1ObjectIdentifier.f("2");
+        b = aSN1ObjectIdentifierF;
+        c = aSN1ObjectIdentifierF.f("1");
+        d = aSN1ObjectIdentifierF.f("2");
+        e = aSN1ObjectIdentifierF.f("3");
+        f = aSN1ObjectIdentifierF.f("4");
+        g = aSN1ObjectIdentifierF.f("5");
+        h = aSN1ObjectIdentifierF.f("6");
+        i = aSN1ObjectIdentifierF.f("7");
+        j = aSN1ObjectIdentifierF.f("8");
+        k = aSN1ObjectIdentifierF.f("9");
+        l = aSN1ObjectIdentifierF.f("10");
+        m = aSN1ObjectIdentifierF.f("11");
+        n = aSN1ObjectIdentifierF.f("12");
+        aSN1ObjectIdentifierF.f("13");
+        aSN1ObjectIdentifierF.f("14");
+        aSN1ObjectIdentifierF.f("15");
+        aSN1ObjectIdentifierF.f("16");
+        aSN1ObjectIdentifierF.f("17");
+        o = aSN1ObjectIdentifierF.f("18");
+        aSN1ObjectIdentifierF.f("19");
+        aSN1ObjectIdentifierF.f("20");
+        ASN1ObjectIdentifier aSN1ObjectIdentifierF2 = aSN1ObjectIdentifier.f("1");
+        p = aSN1ObjectIdentifierF2;
+        aSN1ObjectIdentifierF2.f("1");
+        aSN1ObjectIdentifierF2.f("2");
+        aSN1ObjectIdentifierF2.f("3");
+        aSN1ObjectIdentifierF2.f("4");
+        aSN1ObjectIdentifierF2.f("5");
+        aSN1ObjectIdentifierF2.f("6");
+        aSN1ObjectIdentifierF2.f("7");
+        aSN1ObjectIdentifierF2.f("8");
+        aSN1ObjectIdentifierF2.f("9");
+        aSN1ObjectIdentifierF2.f("21");
+        aSN1ObjectIdentifierF2.f("22");
+        aSN1ObjectIdentifierF2.f("23");
+        aSN1ObjectIdentifierF2.f("24");
+        aSN1ObjectIdentifierF2.f("25");
+        aSN1ObjectIdentifierF2.f("26");
+        aSN1ObjectIdentifierF2.f("27");
+        aSN1ObjectIdentifierF2.f("28");
+        aSN1ObjectIdentifierF2.f("29");
+        aSN1ObjectIdentifierF2.f("41");
+        aSN1ObjectIdentifierF2.f("42");
+        aSN1ObjectIdentifierF2.f("43");
+        aSN1ObjectIdentifierF2.f("44");
+        aSN1ObjectIdentifierF2.f("45");
+        aSN1ObjectIdentifierF2.f("46");
+        aSN1ObjectIdentifierF2.f("47");
+        aSN1ObjectIdentifierF2.f("48");
+        aSN1ObjectIdentifierF2.f("49");
+        ASN1ObjectIdentifier aSN1ObjectIdentifierF3 = aSN1ObjectIdentifier.f("3");
+        q = aSN1ObjectIdentifierF3;
+        r = aSN1ObjectIdentifierF3.f("1");
+        s = aSN1ObjectIdentifierF3.f("2");
+        t = aSN1ObjectIdentifierF3.f("3");
+        u = aSN1ObjectIdentifierF3.f("4");
+        aSN1ObjectIdentifierF3.f("5");
+        aSN1ObjectIdentifierF3.f("6");
+        aSN1ObjectIdentifierF3.f("7");
+        aSN1ObjectIdentifierF3.f("8");
+        aSN1ObjectIdentifierF3.f("9");
+        aSN1ObjectIdentifierF3.f("10");
+        aSN1ObjectIdentifierF3.f("11");
+        aSN1ObjectIdentifierF3.f("12");
+        aSN1ObjectIdentifierF3.f("13");
+        aSN1ObjectIdentifierF3.f("14");
+        aSN1ObjectIdentifierF3.f("15");
+        aSN1ObjectIdentifierF3.f("16");
+    }
+}

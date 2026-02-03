@@ -1,0 +1,7 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes.dex */
+public interface duv {
+    void a(float f);
+}

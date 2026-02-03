@@ -1,0 +1,138 @@
+package com.google.android.libraries.user.profile.photopicker.common.view;
+
+import android.content.Context;
+import android.content.res.Resources;
+import android.content.res.TypedArray;
+import android.graphics.Bitmap;
+import android.graphics.BitmapShader;
+import android.graphics.Canvas;
+import android.graphics.Matrix;
+import android.graphics.Paint;
+import android.graphics.RectF;
+import android.graphics.Shader;
+import android.util.AttributeSet;
+import android.view.View;
+import com.google.android.apps.messaging.R;
+import defpackage.edms;
+import defpackage.edmt;
+import defpackage.fbgs;
+import defpackage.rts;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+public class SquareImageView extends View {
+    public Bitmap a;
+    public final rts b;
+    private final Paint c;
+    private final Paint d;
+    private int e;
+    private RectF f;
+    private int g;
+    private int h;
+
+    public SquareImageView(Context context) throws Resources.NotFoundException {
+        this(context, null);
+        int dimensionPixelSize = context.getResources().getDimensionPixelSize(R.dimen.photo_picker_item_padding);
+        setPadding(dimensionPixelSize, dimensionPixelSize, dimensionPixelSize, dimensionPixelSize);
+    }
+
+    public static SquareImageView a(Context context) {
+        SquareImageView squareImageView = new SquareImageView(context);
+        squareImageView.d();
+        return squareImageView;
+    }
+
+    public final void b() {
+        this.a = null;
+        this.c.setShader(null);
+        invalidate();
+    }
+
+    public final void c() {
+        if (this.g == 0 || this.h == 0) {
+            return;
+        }
+        BitmapShader bitmapShader = new BitmapShader(this.a, Shader.TileMode.REPEAT, Shader.TileMode.REPEAT);
+        float f = this.g;
+        float f2 = this.h;
+        float width = this.a.getWidth();
+        float height = this.a.getHeight();
+        float f3 = width / height;
+        float f4 = f / f2;
+        float f5 = f3 <= f4 ? width : height * f4;
+        float f6 = f3 >= f4 ? height : width / f4;
+        Matrix matrix = new Matrix();
+        matrix.postTranslate(-((width - f5) / 2.0f), -((height - f6) / 2.0f));
+        matrix.postScale(f / f5, f2 / f6);
+        bitmapShader.setLocalMatrix(matrix);
+        this.c.setShader(bitmapShader);
+        invalidate();
+    }
+
+    public final void d() {
+        this.e = 0;
+        invalidate();
+    }
+
+    @Override // android.view.View
+    public final void onDraw(Canvas canvas) {
+        RectF rectF = this.f;
+        if (rectF == null) {
+            return;
+        }
+        if (this.a != null) {
+            float f = this.e;
+            canvas.drawRoundRect(rectF, f, f, this.c);
+        } else {
+            float f2 = this.e;
+            canvas.drawRoundRect(rectF, f2, f2, this.d);
+        }
+    }
+
+    @Override // android.view.View
+    public final void onMeasure(int i, int i2) {
+        super.onMeasure(i, i);
+    }
+
+    @Override // android.view.View
+    protected final void onSizeChanged(int i, int i2, int i3, int i4) {
+        super.onSizeChanged(i, i2, i3, i4);
+        int paddingRight = i - getPaddingRight();
+        int paddingBottom = getPaddingBottom();
+        this.g = paddingRight;
+        this.h = i2 - paddingBottom;
+        this.f = new RectF(getPaddingLeft(), getPaddingTop(), this.g, this.h);
+        if (this.a != null) {
+            c();
+        }
+    }
+
+    public SquareImageView(Context context, AttributeSet attributeSet) {
+        this(context, attributeSet, 0);
+    }
+
+    public SquareImageView(Context context, AttributeSet attributeSet, int i) {
+        super(context, attributeSet, i);
+        this.c = new Paint(1);
+        Paint paint = new Paint(1);
+        this.d = paint;
+        this.b = new edmt(this, this);
+        TypedArray typedArrayObtainStyledAttributes = context.obtainStyledAttributes(new int[]{R.attr.colorHairline});
+        try {
+            paint.setColor(typedArrayObtainStyledAttributes.getColor(0, 0));
+            typedArrayObtainStyledAttributes.recycle();
+            this.e = context.getResources().getDimensionPixelSize(R.dimen.photo_picker_corner_crop_radius);
+            if (fbgs.c()) {
+                TypedArray typedArrayObtainStyledAttributes2 = context.getTheme().obtainStyledAttributes(attributeSet, edms.a, 0, 0);
+                try {
+                    this.e = typedArrayObtainStyledAttributes2.getDimensionPixelSize(0, this.e);
+                } finally {
+                    typedArrayObtainStyledAttributes2.recycle();
+                }
+            }
+        } catch (Throwable th) {
+            typedArrayObtainStyledAttributes.recycle();
+            throw th;
+        }
+    }
+}

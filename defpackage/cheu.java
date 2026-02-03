@@ -1,0 +1,55 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes8.dex */
+public final class cheu implements cgxv {
+    final /* synthetic */ fcsu a;
+    private final fddy b;
+    private final cgzk c;
+    private final chhp d;
+    private final chai e;
+
+    public cheu(cgzk cgzkVar, chhp chhpVar, chai chaiVar, fcsu fcsuVar) {
+        this.a = fcsuVar;
+        int i = fdcj.a;
+        this.b = new fdbi(chfs.class);
+        this.c = cgzkVar;
+        this.d = chhpVar;
+        this.e = chaiVar;
+    }
+
+    @Override // defpackage.cgxv
+    public final cgxk a() {
+        return new cgxo(new cgxm("Configurator"), fcva.b(this.a.b()));
+    }
+
+    @Override // defpackage.cgxv
+    public final cgzk b() {
+        return this.c;
+    }
+
+    @Override // defpackage.cgxv
+    public final cgzu c() {
+        return new chga();
+    }
+
+    @Override // defpackage.cgxv
+    public final chai d() {
+        return this.e;
+    }
+
+    @Override // defpackage.cgxv
+    public final chhp e() {
+        return this.d;
+    }
+
+    @Override // defpackage.cgxv
+    public final fddy f() {
+        return this.b;
+    }
+
+    @Override // defpackage.cgxv
+    public final cgyh g() {
+        return null;
+    }
+}

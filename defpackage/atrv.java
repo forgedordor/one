@@ -1,0 +1,7 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes6.dex */
+public interface atrv {
+    String a(Object obj);
+}

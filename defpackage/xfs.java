@@ -1,0 +1,19 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class xfs implements fdpl {
+    final /* synthetic */ fdpl a;
+    final /* synthetic */ xfx b;
+
+    public xfs(fdpl fdplVar, xfx xfxVar) {
+        this.a = fdplVar;
+        this.b = xfxVar;
+    }
+
+    @Override // defpackage.fdpl
+    public final Object a(fdpm fdpmVar, fcxy fcxyVar) {
+        Object objA = this.a.a(new xfr(fdpmVar, this.b), fcxyVar);
+        return objA == fcyl.a ? objA : fctx.a;
+    }
+}

@@ -1,0 +1,32 @@
+package defpackage;
+
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+import com.google.android.apps.messaging.R;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class adek extends adel {
+    private final adfz c = adfz.a;
+
+    @Override // defpackage.adel
+    public final /* bridge */ /* synthetic */ adeo a(LayoutInflater layoutInflater, ViewGroup viewGroup, boolean z, fdap fdapVar) {
+        View viewFindViewById = layoutInflater.inflate(true != z ? R.layout.google_photos_onboarding_ineligible_cell : R.layout.google_photos_onboarding_ineligible_header, viewGroup, false).findViewById(R.id.gallery_photos_promo_signed_out_container);
+        viewFindViewById.getClass();
+        aden adenVar = new aden(viewFindViewById);
+        TextView textView = adenVar.h;
+        Context context = layoutInflater.getContext();
+        context.getClass();
+        textView.setText(f(context, R.string.google_photos_onboarding_signed_out_title, R.string.google_photos_onboarding_signed_in_title_photos_and_videos));
+        fdapVar.invoke(adenVar);
+        return adenVar;
+    }
+
+    @Override // defpackage.adel
+    public final /* synthetic */ adga b() {
+        return this.c;
+    }
+}

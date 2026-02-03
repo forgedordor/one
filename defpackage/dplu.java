@@ -1,0 +1,38 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes4.dex */
+public final class dplu implements dpmd, dpmb, dplt, dplz {
+    private final long a;
+    private final hsf b;
+
+    public dplu(long j, hsf hsfVar) {
+        this.a = j;
+        this.b = hsfVar;
+    }
+
+    @Override // defpackage.dplt
+    public final long a() {
+        return this.a;
+    }
+
+    @Override // defpackage.dplz
+    public final boolean b() {
+        throw null;
+    }
+
+    @Override // defpackage.dpmb
+    public final dpmf c() {
+        return (dpmf) this.b.a();
+    }
+
+    @Override // defpackage.dpmd
+    public final /* synthetic */ ics d(ics icsVar, hml hmlVar) {
+        throw null;
+    }
+
+    @Override // defpackage.dpmb
+    public final /* synthetic */ ics e(ics icsVar, hml hmlVar) {
+        throw null;
+    }
+}

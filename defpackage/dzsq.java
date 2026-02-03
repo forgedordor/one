@@ -1,0 +1,28 @@
+package defpackage;
+
+import androidx.car.app.model.Alert;
+
+/* compiled from: PG */
+/* loaded from: classes4.dex */
+public abstract class dzsq implements dzjv {
+    @Override // defpackage.dzjv
+    public final /* synthetic */ int a() {
+        return Alert.DURATION_SHOW_INDEFINITELY;
+    }
+
+    @Override // defpackage.dzjv
+    public final /* synthetic */ fcsu b() {
+        return null;
+    }
+
+    @Override // defpackage.dzjv
+    public final boolean c() {
+        return true;
+    }
+
+    public abstract ejwi d();
+
+    public abstract ejwi e();
+
+    public abstract void f();
+}

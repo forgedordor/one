@@ -1,0 +1,14 @@
+package org.bouncycastle.asn1.esf;
+
+import org.bouncycastle.asn1.ASN1Object;
+import org.bouncycastle.asn1.ASN1Primitive;
+import org.bouncycastle.asn1.DERNull;
+
+/* compiled from: PG */
+/* loaded from: classes6.dex */
+public class SignaturePolicyIdentifier extends ASN1Object {
+    @Override // org.bouncycastle.asn1.ASN1Object, org.bouncycastle.asn1.ASN1Encodable
+    public final ASN1Primitive p() {
+        return DERNull.a;
+    }
+}

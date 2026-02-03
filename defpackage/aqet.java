@@ -1,0 +1,14 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes6.dex */
+public final class aqet implements eyif {
+    public static String a() {
+        return "bugle.enable_batch_conversation_restore";
+    }
+
+    @Override // defpackage.fcsu
+    public final /* bridge */ /* synthetic */ Object b() {
+        throw null;
+    }
+}

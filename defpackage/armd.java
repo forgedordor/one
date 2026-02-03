@@ -1,0 +1,14 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes6.dex */
+public final class armd implements eyif {
+    public static String a() {
+        return "bugle.improve_bubble_grouping";
+    }
+
+    @Override // defpackage.fcsu
+    public final /* bridge */ /* synthetic */ Object b() {
+        throw null;
+    }
+}

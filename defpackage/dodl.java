@@ -1,0 +1,116 @@
+package defpackage;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.ContextWrapper;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import defpackage.eyhq;
+import j$.util.Optional;
+
+/* compiled from: PG */
+/* loaded from: classes4.dex */
+public abstract class dodl extends dpxo implements eyhy {
+    private ContextWrapper a;
+    private boolean b;
+    private volatile eyhj c;
+    private final Object d;
+    private boolean e;
+
+    dodl() {
+        this.d = new Object();
+        this.e = false;
+    }
+
+    private final void e() {
+        if (this.a == null) {
+            this.a = new eyhq.a(super.z(), this);
+            this.b = eygr.a(super.z());
+        }
+    }
+
+    @Override // defpackage.ea, defpackage.luv
+    public final lxk R() {
+        return eygu.b(this, super.R());
+    }
+
+    @Override // defpackage.eyhy
+    /* renamed from: a, reason: merged with bridge method [inline-methods] */
+    public final eyhj ba() {
+        if (this.c == null) {
+            synchronized (this.d) {
+                if (this.c == null) {
+                    this.c = new eyhj(this);
+                }
+            }
+        }
+        return this.c;
+    }
+
+    @Override // defpackage.ea
+    public final void ag(Activity activity) {
+        super.ag(activity);
+        ContextWrapper contextWrapper = this.a;
+        boolean z = true;
+        if (contextWrapper != null && eyhj.d(contextWrapper) != activity) {
+            z = false;
+        }
+        eyhz.a(z, "onAttach called multiple times with different Context! Hilt Fragments should not be retained.", new Object[0]);
+        e();
+        b();
+    }
+
+    protected final void b() {
+        if (this.e) {
+            return;
+        }
+        this.e = true;
+        doem doemVar = (doem) this;
+        ahib ahibVar = (ahib) bb();
+        ahkn ahknVar = ahibVar.a;
+        doemVar.aM = (eony) ahknVar.lp.b();
+        doemVar.aN = ahknVar.lo;
+        doemVar.aO = (fdjx) ahibVar.g.b();
+        doemVar.aP = Optional.empty();
+        doemVar.aQ = (Optional) ahibVar.n.b();
+        ea eaVar = (ea) ((eyig) ahibVar.d).a;
+        eyik eyikVar = ahibVar.aD;
+        ahng ahngVar = ahknVar.b;
+        ahnh ahnhVar = ahknVar.a;
+        doemVar.a = Optional.of(new uzk(eaVar, eyikVar, ahngVar.pd, ahnhVar.Uk, (fdjx) ahibVar.g.b(), ahknVar.aT, (Optional) ahibVar.aE.b(), ahngVar.iG, ahngVar.hy, ahngVar.iH));
+        doemVar.b = new dner(ahknVar.lq, ahnhVar.m, ahngVar.iS, ahknVar.lp, ahknVar.lo);
+    }
+
+    @Override // defpackage.eyhx
+    public final Object bb() {
+        return ba().bb();
+    }
+
+    @Override // defpackage.dpil, defpackage.ea
+    public void g(Context context) {
+        super.g(context);
+        e();
+        b();
+    }
+
+    @Override // defpackage.ea
+    public final LayoutInflater go(Bundle bundle) {
+        LayoutInflater layoutInflaterAO = aO();
+        return layoutInflaterAO.cloneInContext(new eyhq.a(layoutInflaterAO, this));
+    }
+
+    @Override // defpackage.ea
+    public final Context z() {
+        if (super.z() == null && !this.b) {
+            return null;
+        }
+        e();
+        return this.a;
+    }
+
+    public dodl(Integer num, dpxp dpxpVar) {
+        super(num, dpxpVar);
+        this.d = new Object();
+        this.e = false;
+    }
+}

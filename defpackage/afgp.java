@@ -1,0 +1,41 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+final class afgp extends fcyz implements fdat {
+    int a;
+    final /* synthetic */ afgr b;
+    final /* synthetic */ efwo c;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public afgp(afgr afgrVar, efwo efwoVar, fcxy fcxyVar) {
+        super(2, fcxyVar);
+        this.b = afgrVar;
+        this.c = efwoVar;
+    }
+
+    @Override // defpackage.fdat
+    public final /* bridge */ /* synthetic */ Object a(Object obj, Object obj2) {
+        return ((afgp) c((fdjx) obj, (fcxy) obj2)).b(fctx.a);
+    }
+
+    @Override // defpackage.fcyt
+    public final Object b(Object obj) throws Throwable {
+        fcyl fcylVar = fcyl.a;
+        int i = this.a;
+        fctl.b(obj);
+        if (i != 0) {
+            return obj;
+        }
+        afgr afgrVar = this.b;
+        efwo efwoVar = this.c;
+        this.a = 1;
+        Object objB = afgrVar.b(efwoVar, this);
+        return objB == fcylVar ? fcylVar : objB;
+    }
+
+    @Override // defpackage.fcyt
+    public final fcxy c(Object obj, fcxy fcxyVar) {
+        return new afgp(this.b, this.c, fcxyVar);
+    }
+}

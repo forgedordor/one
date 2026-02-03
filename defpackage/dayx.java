@@ -1,0 +1,22 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes3.dex */
+final class dayx implements fdat {
+    final /* synthetic */ gun a;
+
+    public dayx(gun gunVar) {
+        this.a = gunVar;
+    }
+
+    @Override // defpackage.fdat
+    public final /* bridge */ /* synthetic */ Object a(Object obj, Object obj2) {
+        hml hmlVar = (hml) obj;
+        if ((((Number) obj2).intValue() & 3) == 2 && hmlVar.I()) {
+            hmlVar.s();
+        } else {
+            guj.a(this.a, null, null, hmlVar, 6, 6);
+        }
+        return fctx.a;
+    }
+}

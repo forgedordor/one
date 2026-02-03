@@ -1,0 +1,87 @@
+package j$.util.stream;
+
+import j$.util.function.Consumer$CC;
+import java.util.function.Consumer;
+import java.util.function.DoubleBinaryOperator;
+import java.util.function.DoubleConsumer;
+
+/* loaded from: classes9.dex */
+public final class E1 implements T1, InterfaceC0113m2 {
+    public boolean a;
+    public double b;
+    public final /* synthetic */ DoubleBinaryOperator c;
+
+    public E1(DoubleBinaryOperator doubleBinaryOperator) {
+        this.c = doubleBinaryOperator;
+    }
+
+    @Override // j$.util.stream.InterfaceC0113m2
+    public final /* synthetic */ void C(Double d) {
+        AbstractC0171y1.e(this, d);
+    }
+
+    @Override // j$.util.stream.InterfaceC0128p2
+    public final /* synthetic */ void accept(int i) {
+        AbstractC0171y1.k();
+        throw null;
+    }
+
+    public final /* synthetic */ Consumer andThen(Consumer consumer) {
+        return Consumer$CC.$default$andThen(this, consumer);
+    }
+
+    @Override // j$.util.stream.InterfaceC0128p2
+    public final /* synthetic */ void end() {
+    }
+
+    @Override // java.util.function.Supplier
+    public final Object get() {
+        return this.a ? j$.util.B.c : new j$.util.B(this.b);
+    }
+
+    @Override // j$.util.stream.InterfaceC0128p2
+    public final void k(long j) {
+        this.a = true;
+        this.b = 0.0d;
+    }
+
+    @Override // j$.util.stream.InterfaceC0128p2
+    public final /* synthetic */ boolean q() {
+        return false;
+    }
+
+    @Override // j$.util.stream.T1
+    public final void u(T1 t1) {
+        E1 e1 = (E1) t1;
+        if (e1.a) {
+            return;
+        }
+        accept(e1.b);
+    }
+
+    @Override // j$.util.stream.InterfaceC0128p2
+    public final /* synthetic */ void accept(long j) {
+        AbstractC0171y1.l();
+        throw null;
+    }
+
+    public final /* synthetic */ DoubleConsumer andThen(DoubleConsumer doubleConsumer) {
+        return j$.desugar.sun.nio.fs.g.b(this, doubleConsumer);
+    }
+
+    @Override // java.util.function.Consumer
+    /* renamed from: accept */
+    public final /* bridge */ /* synthetic */ void z(Object obj) {
+        C((Double) obj);
+    }
+
+    @Override // j$.util.stream.InterfaceC0128p2
+    public final void accept(double d) {
+        if (this.a) {
+            this.a = false;
+            this.b = d;
+        } else {
+            this.b = this.c.applyAsDouble(this.b, d);
+        }
+    }
+}

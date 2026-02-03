@@ -1,0 +1,154 @@
+package defpackage;
+
+import android.content.ContentValues;
+import defpackage.dqpd;
+import j$.util.Objects;
+import java.util.Arrays;
+import java.util.Locale;
+
+/* compiled from: PG */
+/* loaded from: classes7.dex */
+public class ccet extends dqpd implements dqpf {
+    public String a;
+    public String b;
+    public byte[] c;
+
+    protected ccet() {
+    }
+
+    @Override // defpackage.dqpd
+    public final String a() {
+        Locale locale = Locale.US;
+        String strValueOf = String.valueOf(this.a);
+        String strValueOf2 = String.valueOf(this.b);
+        byte[] bArr = this.c;
+        return String.format(locale, "MlsGroupStatesTable [identity_id: %s,\n  group_id: %s,\n  epoch_data: %s\n]\n", strValueOf, strValueOf2, "BLOB".concat(String.valueOf(bArr != null ? String.valueOf(bArr.length) : "NULL")));
+    }
+
+    @Override // defpackage.dqpd
+    public final void b(ContentValues contentValues) {
+        dqru.v(contentValues, "identity_id", this.a);
+        dqru.v(contentValues, "group_id", this.b);
+        contentValues.put("epoch_data", this.c);
+    }
+
+    @Override // defpackage.dqpd
+    protected final /* bridge */ /* synthetic */ void c(dqqj dqqjVar) {
+        ccfj ccfjVar = (ccfj) ((ccff) dqqjVar);
+        aC();
+        this.cN = ccfjVar.cV();
+        if (ccfjVar.dj(0)) {
+            this.a = ccfjVar.e();
+            fN(0);
+        }
+        if (ccfjVar.dj(1)) {
+            this.b = ccfjVar.c();
+            fN(1);
+        }
+        if (ccfjVar.dj(2)) {
+            this.c = ccfjVar.f();
+            fN(2);
+        }
+    }
+
+    public final boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if (!(obj instanceof ccet)) {
+            return false;
+        }
+        ccet ccetVar = (ccet) obj;
+        return super.aE(ccetVar.cN) && Objects.equals(this.a, ccetVar.a) && Objects.equals(this.b, ccetVar.b) && Arrays.equals(this.c, ccetVar.c);
+    }
+
+    @Override // defpackage.dqpf
+    public final String f() {
+        return String.format(Locale.US, "INTO %s (%s) VALUES ", "mls_group_states", dqru.m(new String[]{"identity_id", "group_id", "epoch_data"}));
+    }
+
+    @Override // defpackage.dqpf
+    public final String g() {
+        return null;
+    }
+
+    @Override // defpackage.dqpf
+    public final String h() {
+        return "mls_group_states";
+    }
+
+    public final int hashCode() {
+        dqqe dqqeVar = this.cN;
+        return Objects.hash((dqqeVar == null || dqqeVar.b()) ? null : this.cN, this.a, this.b, Integer.valueOf(Arrays.hashCode(this.c)), null);
+    }
+
+    /* JADX WARN: Removed duplicated region for block: B:12:0x003e  */
+    @Override // defpackage.dqpf
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct add '--show-bad-code' argument
+    */
+    public final void i(java.lang.StringBuilder r8, java.util.List r9) {
+        /*
+            r7 = this;
+            java.lang.String r0 = r7.a
+            java.lang.String r1 = r7.b
+            byte[] r2 = r7.c
+            r3 = 3
+            java.lang.Object[] r4 = new java.lang.Object[r3]
+            r5 = 0
+            r4[r5] = r0
+            r0 = 1
+            r4[r0] = r1
+            r0 = 2
+            r4[r0] = r2
+            r0 = 40
+            r8.append(r0)
+        L17:
+            if (r5 >= r3) goto L4e
+            r0 = r4[r5]
+            boolean r1 = r0 instanceof java.lang.Number
+            if (r1 == 0) goto L27
+            java.lang.String r0 = java.lang.String.valueOf(r0)
+            r8.append(r0)
+            goto L46
+        L27:
+            boolean r1 = r0 instanceof java.lang.String
+            if (r1 == 0) goto L3e
+            r1 = r0
+            java.lang.String r1 = (java.lang.String) r1
+            int r2 = r1.length()
+            r6 = 12
+            if (r2 >= r6) goto L3e
+            java.lang.String r0 = android.database.DatabaseUtils.sqlEscapeString(r1)
+            r8.append(r0)
+            goto L46
+        L3e:
+            r9.add(r0)
+            r0 = 63
+            r8.append(r0)
+        L46:
+            r0 = 44
+            r8.append(r0)
+            int r5 = r5 + 1
+            goto L17
+        L4e:
+            int r9 = r8.length()
+            int r9 = r9 + (-1)
+            r8.setLength(r9)
+            r9 = 41
+            r8.append(r9)
+            return
+        */
+        throw new UnsupportedOperationException("Method not decompiled: defpackage.ccet.i(java.lang.StringBuilder, java.util.List):void");
+    }
+
+    @Override // defpackage.dqpf
+    public final /* bridge */ /* synthetic */ Object j() {
+        throw null;
+    }
+
+    public final String toString() {
+        return ((dqpd.a) ehli.a(dqru.b, dqpd.a.class)).ix().a() ? String.format(Locale.US, "%s", "MlsGroupStatesTable -- REDACTED") : a();
+    }
+}

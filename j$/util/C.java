@@ -1,0 +1,34 @@
+package j$.util;
+
+import j$.util.stream.InterfaceC0128p2;
+import java.util.function.Consumer;
+import java.util.function.DoubleConsumer;
+
+/* loaded from: classes9.dex */
+public final /* synthetic */ class C implements DoubleConsumer {
+    public final /* synthetic */ int a;
+    public final /* synthetic */ Consumer b;
+
+    public /* synthetic */ C(Consumer consumer, int i) {
+        this.a = i;
+        this.b = consumer;
+    }
+
+    @Override // java.util.function.DoubleConsumer
+    public final void accept(double d) {
+        switch (this.a) {
+            case 0:
+                this.b.accept(Double.valueOf(d));
+                break;
+            default:
+                ((InterfaceC0128p2) this.b).accept(d);
+                break;
+        }
+    }
+
+    public final /* synthetic */ DoubleConsumer andThen(DoubleConsumer doubleConsumer) {
+        switch (this.a) {
+        }
+        return j$.desugar.sun.nio.fs.g.b(this, doubleConsumer);
+    }
+}

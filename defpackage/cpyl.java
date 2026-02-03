@@ -1,0 +1,124 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes3.dex */
+public final class cpyl {
+    public static final cczi A;
+    public static final cczi B;
+    public static final cczi C;
+    public static final cczi D;
+    public static final cczi E;
+    public static final cczi F;
+    public static final ejxr G;
+    public static final ejxr H;
+    public static final cczi I;
+    public static final cczi J;
+    public static final cczi K;
+    public static final cczi L;
+    public static final ejxr M;
+    public static final cczi N;
+    public static final cczi O;
+    public static final cczi P;
+    public static final cczi Q;
+    public static final cczi R;
+    public static final cczi S;
+    public static final ejxr T;
+    public static final ejxr U;
+    public static final ejxr V;
+    public static final ejxr W;
+    public static final ejxr X;
+    public static final ejxr Y;
+    public static final cczi a;
+    public static final cczi b;
+    public static final cczi c;
+    public static final cczi d;
+    public static final cczi e;
+    public static final cczi f;
+    public static final cczi g;
+    public static final cczi h;
+    public static final cczi i;
+    public static final cczi j;
+    public static final ejxr k;
+    public static final ejxr l;
+    public static final ejxr m;
+    public static final ejxr n;
+    public static final ejxr o;
+    public static final ejxr p;
+    public static final cczi q;
+    public static final ejxr r;
+    public static final ejxr s;
+    public static final ejxr t;
+    public static final ejxr u;
+    public static final ejxr v;
+    public static final ejxr w;
+    public static final ejxr x;
+    public static final ejxr y;
+    public static final ejxr z;
+
+    static {
+        cdag.g(cdag.b, "fi_transfer_to_messages_learn_more_url", "https://support.google.com/fi/?p=transfertomessages");
+        a = cdag.h(cdag.b, "enable_growthkit_flow", false);
+        b = cdag.e(cdag.b, "max_page_restore_attempts", 13);
+        c = cdag.e(cdag.b, "cms_backup_network_failure_max_retries", 26);
+        d = cdag.e(cdag.b, "cms_backup_max_retries", 22);
+        e = cdag.e(cdag.b, "cms_media_sync_max_retries", 3);
+        f = cdag.e(cdag.b, "cms_media_backup_max_attempts_in_pwq", 7);
+        g = cdag.h(cdag.b, "enable_cms_bnr_settings", false);
+        h = cdag.g(cdag.b, "fi_transfer_to_messages_non_hangouts_learn_more_url", "https://support.google.com/fi/?p=transfertomessages");
+        i = cdag.g(cdag.b, "fi_stop_syncing_learn_more_url", "https://support.google.com/fi/?p=stopsyncing");
+        j = cdag.g(cdag.b, "fi_turn_off_chat_features_learn_more_url", "https://support.google.com/fi/?p=turnoffchatfeatures");
+        k = cdag.v("cms_enable_key_retrieval_client_in_debug_menu");
+        l = cdag.v("cms_enable_requires_battery_not_low");
+        m = cdag.v("cms_fi_delete_button");
+        n = cdag.v("cms_check_for_missing_restore_work");
+        cdag.v("mark_backup_scheduled_life_cycle");
+        o = cdag.v("record_initial_sync_progress");
+        p = cdag.v("enable_bnr_storage_card");
+        q = cdag.h(cdag.b, "redirect_user_to_new_backup_settings_screen", false);
+        r = cdag.v("cms_prompt_fi_sign_in");
+        cdag.f(cdag.b, "fi_account_status_tracker_synclet_run_interval_ms", 86400000L);
+        s = cdag.v("cms_include_message_metadata_fields");
+        t = cdag.v("show_backup_promo_popup");
+        u = cdag.v("enable_suppressing_cms_box_events");
+        v = cdag.v("cms_backup_rcs_conference_uri");
+        w = cdag.v("cms_copy_multi_device_and_initial_sync_status");
+        x = cdag.v("enable_calling_get_user_storage_info");
+        y = cdag.v("enable_pausing_backup_for_storage_info");
+        z = cdag.v("bnr_initial_sync_media_uses_battery_charging_constraints");
+        cdag.h(cdag.b, "enable_exposed_apis_for_bbg1", false);
+        cdag.h(cdag.b, "enable_bnr_auto_enablement", false);
+        A = cdag.f(cdag.b, "notification_received_timestamp_threshold", 86400000L);
+        B = cdag.c(cdag.b, "user_cloud_storage_usage_threshold", 0.99d);
+        C = cdag.e(cdag.b, "cms_backfill_missing_field_query_page_size", 50);
+        D = cdag.e(cdag.b, "max_cms_deleted_messages_buffer_size", 50);
+        E = cdag.f(cdag.b, "cms_deleted_messages_buffer_expiration_duration_in_days", 7L);
+        F = cdag.f(cdag.b, "cms_dependency_cache_expiration_duration_in_days", 7L);
+        cdag.h(cdag.b, "locally_restored_media_deletion_kill_switch", false);
+        G = cdag.v("upload_media_in_backup_delegate_for_incremental_backup");
+        H = cdag.v("enable_user_reference_bnr");
+        I = cdag.e(cdag.b, "cms_restore_top_conversations_limit", 15);
+        J = cdag.e(cdag.b, "linked_account_async_get_timeout", 500);
+        K = cdag.e(cdag.b, "linked_account_async_get_timeout", 30000);
+        cdag.f(cdag.b, "cms_d2d_feature_manager_stale_timestamp_threshold_in_days", 24L);
+        L = cdag.f(cdag.b, "cms_delta_sync_manager_stale_timestamp_threshold_in_days", 24L);
+        M = cdag.v("use_foreground_service_during_restore");
+        N = cdag.f(cdag.b, "max_restore_foreground_service_duration_ms", 900000L);
+        O = cdag.f(cdag.b, "max_media_backup_foreground_service_duration_ms", 900000L);
+        P = cdag.f(cdag.b, "slow_restore_page_threshold_ms", 300000L);
+        Q = cdag.h(cdag.b, "enable_report_issue_notification_for_restore_failures", false);
+        R = cdag.e(cdag.b, "report_issue_notification_dlq_count_threshold", 5);
+        S = cdag.f(cdag.b, "report_issue_notification_cooldown_ms", 3600000L);
+        cdag.v("enable_keep_alive_strategy_pwq_v2");
+        T = cdag.v("enable_restore_top_conversations_and_messages");
+        U = cdag.v("fi_normalize_phone_number");
+        cdag.v("enable_bnr_from_esi_entitlement_flag");
+        V = cdag.v("use_persistence_id_for_cms_deduplication");
+        W = cdag.v("use_persistence_id_for_cms_tombstone_deduplication");
+        X = cdag.v("enable_starlight_for_backups");
+        Y = cdag.v("enable_bnr_opt_out_synclet");
+    }
+
+    public static boolean a() {
+        return ((Boolean) g.e()).booleanValue() && !elvg.GO_BUILD.equals(cqbe.a);
+    }
+}

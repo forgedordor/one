@@ -1,0 +1,55 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+public final class epam extends evsn implements evui {
+    public static final epam a;
+    private static volatile evuo d;
+    public int b;
+    public eoxr c;
+
+    static {
+        epam epamVar = new epam();
+        a = epamVar;
+        evsn.registerDefaultInstance(epam.class, epamVar);
+    }
+
+    private epam() {
+    }
+
+    @Override // defpackage.evsn
+    protected final Object dynamicMethod(evsm evsmVar, Object obj, Object obj2) {
+        evuo evsgVar;
+        int iOrdinal = evsmVar.ordinal();
+        if (iOrdinal == 0) {
+            return (byte) 1;
+        }
+        if (iOrdinal == 2) {
+            return newMessageInfo(a, "\u0004\u0001\u0000\u0001\u0002\u0002\u0001\u0000\u0000\u0000\u0002ဉ\u0000", new Object[]{"b", "c"});
+        }
+        if (iOrdinal == 3) {
+            return new epam();
+        }
+        if (iOrdinal == 4) {
+            return new epal();
+        }
+        if (iOrdinal == 5) {
+            return a;
+        }
+        if (iOrdinal != 6) {
+            throw null;
+        }
+        evuo evuoVar = d;
+        if (evuoVar != null) {
+            return evuoVar;
+        }
+        synchronized (epam.class) {
+            evsgVar = d;
+            if (evsgVar == null) {
+                evsgVar = new evsg(a);
+                d = evsgVar;
+            }
+        }
+        return evsgVar;
+    }
+}

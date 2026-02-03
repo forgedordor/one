@@ -1,0 +1,27 @@
+package defpackage;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class sis extends AbstractSafeParcelable {
+    public static final Parcelable.Creator<sis> CREATOR = new sit();
+    public final String a;
+    public final int b;
+
+    public sis(String str, int i) {
+        this.a = str;
+        this.b = i;
+    }
+
+    @Override // android.os.Parcelable
+    public final void writeToParcel(Parcel parcel, int i) {
+        String str = this.a;
+        int iA = dclw.a(parcel);
+        dclw.m(parcel, 1, str, false);
+        dclw.i(parcel, 2, this.b);
+        dclw.c(parcel, iA);
+    }
+}

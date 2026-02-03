@@ -1,0 +1,42 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes6.dex */
+final class auxb extends fcyz implements fdat {
+    int a;
+    final /* synthetic */ fdae b;
+    final /* synthetic */ fdci c;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public auxb(fdae fdaeVar, fdci fdciVar, fcxy fcxyVar) {
+        super(2, fcxyVar);
+        this.b = fdaeVar;
+        this.c = fdciVar;
+    }
+
+    @Override // defpackage.fdat
+    public final /* bridge */ /* synthetic */ Object a(Object obj, Object obj2) {
+        return ((auxb) c((fdjx) obj, (fcxy) obj2)).b(fctx.a);
+    }
+
+    @Override // defpackage.fcyt
+    public final Object b(Object obj) throws Throwable {
+        fcyl fcylVar = fcyl.a;
+        int i = this.a;
+        fctl.b(obj);
+        if (i == 0) {
+            this.b.invoke();
+            this.a = 1;
+            if (fdkj.c(1000L, this) == fcylVar) {
+                return fcylVar;
+            }
+        }
+        this.c.a = null;
+        return fctx.a;
+    }
+
+    @Override // defpackage.fcyt
+    public final fcxy c(Object obj, fcxy fcxyVar) {
+        return new auxb(this.b, this.c, fcxyVar);
+    }
+}

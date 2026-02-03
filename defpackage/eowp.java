@@ -1,0 +1,56 @@
+package defpackage;
+
+/* compiled from: PG */
+@Deprecated
+/* loaded from: classes5.dex */
+public final class eowp extends evsn implements evui {
+    public static final eowp a;
+    private static volatile evuo d;
+    public String b = "";
+    public evtg c = emptyProtobufList();
+
+    static {
+        eowp eowpVar = new eowp();
+        a = eowpVar;
+        evsn.registerDefaultInstance(eowp.class, eowpVar);
+    }
+
+    private eowp() {
+    }
+
+    @Override // defpackage.evsn
+    protected final Object dynamicMethod(evsm evsmVar, Object obj, Object obj2) {
+        evuo evsgVar;
+        int iOrdinal = evsmVar.ordinal();
+        if (iOrdinal == 0) {
+            return (byte) 1;
+        }
+        if (iOrdinal == 2) {
+            return newMessageInfo(a, "\u0004\u0002\u0000\u0000\u0001\u0002\u0002\u0000\u0001\u0000\u0001Ȉ\u0002\u001b", new Object[]{"b", "c", epcj.class});
+        }
+        if (iOrdinal == 3) {
+            return new eowp();
+        }
+        if (iOrdinal == 4) {
+            return new eowo();
+        }
+        if (iOrdinal == 5) {
+            return a;
+        }
+        if (iOrdinal != 6) {
+            throw null;
+        }
+        evuo evuoVar = d;
+        if (evuoVar != null) {
+            return evuoVar;
+        }
+        synchronized (eowp.class) {
+            evsgVar = d;
+            if (evsgVar == null) {
+                evsgVar = new evsg(a);
+                d = evsgVar;
+            }
+        }
+        return evsgVar;
+    }
+}

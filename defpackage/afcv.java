@@ -1,0 +1,10 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class afcv extends dqyp {
+    @Override // defpackage.dqyp
+    public final /* synthetic */ dqyj a() {
+        return new afcu(this);
+    }
+}

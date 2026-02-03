@@ -1,0 +1,51 @@
+package defpackage;
+
+import com.google.android.apps.messaging.shared.api.messaging.Conversation;
+import com.google.android.apps.messaging.shared.api.messaging.conversation.bugle.BugleConversation;
+import j$.util.Optional;
+
+/* compiled from: PG */
+/* loaded from: classes6.dex */
+final class akmh extends fcyz implements fdat {
+    int a;
+    final /* synthetic */ akml b;
+    final /* synthetic */ Optional c;
+    final /* synthetic */ ekgb d;
+    final /* synthetic */ String e;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public akmh(akml akmlVar, Optional optional, ekgb ekgbVar, String str, fcxy fcxyVar) {
+        super(2, fcxyVar);
+        this.b = akmlVar;
+        this.c = optional;
+        this.d = ekgbVar;
+        this.e = str;
+    }
+
+    @Override // defpackage.fdat
+    public final /* bridge */ /* synthetic */ Object a(Object obj, Object obj2) {
+        return ((akmh) c((fdjx) obj, (fcxy) obj2)).b(fctx.a);
+    }
+
+    @Override // defpackage.fcyt
+    public final Object b(Object obj) throws Throwable {
+        fcyl fcylVar = fcyl.a;
+        int i = this.a;
+        fctl.b(obj);
+        if (i == 0) {
+            eiju eijuVarO = ((ajvr) this.b.b.b()).o(this.c, this.d, this.e);
+            eijuVarO.getClass();
+            this.a = 1;
+            obj = fdxs.c(eijuVarO, this);
+            if (obj == fcylVar) {
+                return fcylVar;
+            }
+        }
+        return this.b.a.a((BugleConversation) ((Conversation) obj));
+    }
+
+    @Override // defpackage.fcyt
+    public final fcxy c(Object obj, fcxy fcxyVar) {
+        return new akmh(this.b, this.c, this.d, this.e, fcxyVar);
+    }
+}

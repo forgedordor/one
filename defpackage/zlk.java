@@ -1,0 +1,76 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+final class zlk extends fcyz implements fdat {
+    int a;
+    final /* synthetic */ zlz b;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public zlk(zlz zlzVar, fcxy fcxyVar) {
+        super(2, fcxyVar);
+        this.b = zlzVar;
+    }
+
+    @Override // defpackage.fdat
+    public final /* bridge */ /* synthetic */ Object a(Object obj, Object obj2) {
+        return ((zlk) c((fdjx) obj, (fcxy) obj2)).b(fctx.a);
+    }
+
+    /* JADX WARN: Code restructure failed: missing block: B:11:0x003f, code lost:
+    
+        if (defpackage.fdxs.c(r5, r4) == r0) goto L15;
+     */
+    @Override // defpackage.fcyt
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct add '--show-bad-code' argument
+    */
+    public final java.lang.Object b(java.lang.Object r5) throws java.lang.Throwable {
+        /*
+            r4 = this;
+            fcyl r0 = defpackage.fcyl.a
+            int r1 = r4.a
+            r2 = 1
+            defpackage.fctl.b(r5)
+            if (r1 == 0) goto Ld
+            if (r1 == r2) goto L19
+            goto L42
+        Ld:
+            zlz r5 = r4.b
+            r4.a = r2
+            fdpl r5 = r5.d
+            java.lang.Object r5 = defpackage.fdtc.a(r5, r4)
+            if (r5 == r0) goto L45
+        L19:
+            java.util.List r5 = (java.util.List) r5
+            java.lang.Object r5 = defpackage.fcva.Y(r5)
+            com.google.android.apps.messaging.shared.api.messaging.recipient.ResolvedRecipient r5 = (com.google.android.apps.messaging.shared.api.messaging.recipient.ResolvedRecipient) r5
+            if (r5 == 0) goto L42
+            zlz r1 = r4.b
+            fcsu r2 = r1.f
+            java.lang.Object r2 = r2.b()
+            ajln r2 = (defpackage.ajln) r2
+            com.google.android.apps.messaging.shared.api.messaging.conversation.ConversationId r1 = r1.e
+            crvz r3 = defpackage.crvz.c
+            eiju r5 = r2.B(r1, r5, r3)
+            r5.getClass()
+            r1 = 2
+            r4.a = r1
+            java.lang.Object r5 = defpackage.fdxs.c(r5, r4)
+            if (r5 != r0) goto L42
+            goto L45
+        L42:
+            fctx r5 = defpackage.fctx.a
+            return r5
+        L45:
+            return r0
+        */
+        throw new UnsupportedOperationException("Method not decompiled: defpackage.zlk.b(java.lang.Object):java.lang.Object");
+    }
+
+    @Override // defpackage.fcyt
+    public final fcxy c(Object obj, fcxy fcxyVar) {
+        return new zlk(this.b, fcxyVar);
+    }
+}

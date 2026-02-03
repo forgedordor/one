@@ -1,0 +1,214 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+public final class eqqu implements esob {
+    public final ekgb af;
+    public final ekhx ag;
+    private final ekgp aj;
+    public static final dzfh a = new dzfh("google.communications.jibemessagestore.v1.MessageStore.");
+    private static final dzfh ah = new dzfh("google.communications.jibemessagestore.v1.MessageStore/");
+    public static final esoa b = new eqpb();
+    public static final esoa c = new eqpm();
+    public static final esoa d = new eqpx();
+    public static final esoa e = new eqqi();
+    public static final esoa f = new eqqp();
+    public static final esoa g = new eqqq();
+    public static final esoa h = new eqqr();
+    public static final esoa i = new eqqs();
+    public static final esoa j = new eqqt();
+    public static final esoa k = new eqor();
+    public static final esoa l = new eqos();
+    public static final esoa m = new eqot();
+    public static final esoa n = new eqou();
+    public static final esoa o = new eqov();
+    public static final esoa p = new eqow();
+    public static final esoa q = new eqox();
+    public static final esoa r = new eqoy();
+    public static final esoa s = new eqoz();
+    public static final esoa t = new eqpa();
+    public static final esoa u = new eqpc();
+    public static final esoa v = new eqpd();
+    public static final esoa w = new eqpe();
+    public static final esoa x = new eqpf();
+    public static final esoa y = new eqpg();
+    public static final esoa z = new eqph();
+    public static final esoa A = new eqpi();
+    public static final esoa B = new eqpj();
+    public static final esoa C = new eqpk();
+    public static final esoa D = new eqpl();
+    public static final esoa E = new eqpn();
+    public static final esoa F = new eqpo();
+    public static final esoa G = new eqpp();
+    public static final esoa H = new eqpq();
+    public static final esoa I = new eqpr();
+    public static final esoa J = new eqps();
+    public static final esoa K = new eqpt();
+    public static final esoa L = new eqpu();
+    public static final esoa M = new eqpv();
+    public static final esoa N = new eqpw();
+    public static final esoa O = new eqpy();
+    public static final esoa P = new eqpz();
+    public static final esoa Q = new eqqa();
+    public static final esoa R = new eqqb();
+    public static final esoa S = new eqqc();
+    public static final esoa T = new eqqd();
+    public static final esoa U = new eqqe();
+    public static final esoa V = new eqqf();
+    public static final esoa W = new eqqg();
+    public static final esoa X = new eqqh();
+    public static final esoa Y = new eqqj();
+    public static final esoa Z = new eqqk();
+    public static final esoa aa = new eqql();
+    public static final esoa ab = new eqqm();
+    public static final esoa ac = new eqqn();
+    public static final esoa ad = new eqqo();
+    public static final eqqu ae = new eqqu();
+    private static final dzfh ai = new dzfh("jibemessagestore.googleapis.com");
+
+    private eqqu() {
+        int i2 = ekgb.d;
+        ekfw ekfwVar = new ekfw();
+        ekfwVar.h("autopush-jibemessagestore.mtls.sandbox.googleapis.com");
+        ekfwVar.h("autopush-jibemessagestore.sandbox.googleapis.com");
+        ekfwVar.h("jibemessagestore.mtls.googleapis.com");
+        ekfwVar.h("staging-jibemessagestore.mtls.sandbox.googleapis.com");
+        ekfwVar.h("staging-jibemessagestore.sandbox.googleapis.com");
+        ekfwVar.h("jibemessagestore.googleapis.com");
+        this.af = ekfwVar.g();
+        this.ag = new ekhv().g();
+        esoa esoaVar = b;
+        esoa esoaVar2 = c;
+        esoa esoaVar3 = d;
+        esoa esoaVar4 = e;
+        esoa esoaVar5 = f;
+        esoa esoaVar6 = g;
+        esoa esoaVar7 = h;
+        esoa esoaVar8 = i;
+        esoa esoaVar9 = j;
+        esoa esoaVar10 = k;
+        esoa esoaVar11 = l;
+        esoa esoaVar12 = m;
+        esoa esoaVar13 = n;
+        esoa esoaVar14 = o;
+        esoa esoaVar15 = p;
+        esoa esoaVar16 = q;
+        esoa esoaVar17 = r;
+        esoa esoaVar18 = s;
+        esoa esoaVar19 = t;
+        esoa esoaVar20 = u;
+        esoa esoaVar21 = v;
+        esoa esoaVar22 = w;
+        esoa esoaVar23 = x;
+        esoa esoaVar24 = y;
+        esoa esoaVar25 = z;
+        esoa esoaVar26 = A;
+        esoa esoaVar27 = B;
+        esoa esoaVar28 = C;
+        esoa esoaVar29 = D;
+        esoa esoaVar30 = E;
+        esoa esoaVar31 = F;
+        esoa esoaVar32 = G;
+        esoa esoaVar33 = H;
+        esoa esoaVar34 = I;
+        esoa esoaVar35 = J;
+        esoa esoaVar36 = K;
+        esoa esoaVar37 = L;
+        esoa esoaVar38 = M;
+        esoa esoaVar39 = N;
+        esoa esoaVar40 = O;
+        esoa esoaVar41 = P;
+        esoa esoaVar42 = Q;
+        esoa esoaVar43 = R;
+        esoa esoaVar44 = S;
+        esoa esoaVar45 = T;
+        esoa esoaVar46 = U;
+        esoa esoaVar47 = V;
+        esoa esoaVar48 = W;
+        esoa esoaVar49 = X;
+        esoa esoaVar50 = Y;
+        esoa esoaVar51 = Z;
+        esoa esoaVar52 = aa;
+        esoa esoaVar53 = ab;
+        esoa esoaVar54 = ac;
+        esoa esoaVar55 = ad;
+        ekhx.v(esoaVar, esoaVar2, esoaVar3, esoaVar4, esoaVar5, esoaVar6, esoaVar7, esoaVar8, esoaVar9, esoaVar10, esoaVar11, esoaVar12, esoaVar13, esoaVar14, esoaVar15, esoaVar16, esoaVar17, esoaVar18, esoaVar19, esoaVar20, esoaVar21, esoaVar22, esoaVar23, esoaVar24, esoaVar25, esoaVar26, esoaVar27, esoaVar28, esoaVar29, esoaVar30, esoaVar31, esoaVar32, esoaVar33, esoaVar34, esoaVar35, esoaVar36, esoaVar37, esoaVar38, esoaVar39, esoaVar40, esoaVar41, esoaVar42, esoaVar43, esoaVar44, esoaVar45, esoaVar46, esoaVar47, esoaVar48, esoaVar49, esoaVar50, esoaVar51, esoaVar52, esoaVar53, esoaVar54, esoaVar55);
+        ekgi ekgiVar = new ekgi();
+        ekgiVar.i("CreateObject", esoaVar);
+        ekgiVar.i("GetObject", esoaVar2);
+        ekgiVar.i("ListObjects", esoaVar3);
+        ekgiVar.i("DeleteObject", esoaVar4);
+        ekgiVar.i("UpdateObject", esoaVar5);
+        ekgiVar.i("DeleteObjectsList", esoaVar6);
+        ekgiVar.i("GetObjectFlags", esoaVar7);
+        ekgiVar.i("BatchUpdateObjectsFlags", esoaVar8);
+        ekgiVar.i("GetPayload", esoaVar9);
+        ekgiVar.i("GetPayloadPart", esoaVar10);
+        ekgiVar.i("AddPayloadParts", esoaVar11);
+        ekgiVar.i("UpdatePayloadPart", esoaVar12);
+        ekgiVar.i("CreateConversation", esoaVar13);
+        ekgiVar.i("BatchCreateConversations", esoaVar14);
+        ekgiVar.i("GetConversation", esoaVar15);
+        ekgiVar.i("ListConversations", esoaVar16);
+        ekgiVar.i("DeleteConversation", esoaVar17);
+        ekgiVar.i("UpdateConversation", esoaVar18);
+        ekgiVar.i("GetConversationByCorrelationId", esoaVar19);
+        ekgiVar.i("BatchGetConversationsByCorrelationIds", esoaVar20);
+        ekgiVar.i("BatchUpdateConversationsInteractionStates", esoaVar21);
+        ekgiVar.i("ListConversationObjects", esoaVar22);
+        ekgiVar.i("BatchGetConversations", esoaVar23);
+        ekgiVar.i("BatchCreateObjects", esoaVar24);
+        ekgiVar.i("GetObjectByCorrelationId", esoaVar25);
+        ekgiVar.i("GetObjectsByCorrelationTag", esoaVar26);
+        ekgiVar.i("BatchGetObjectsByCorrelationIds", esoaVar27);
+        ekgiVar.i("GetFolder", esoaVar28);
+        ekgiVar.i("CreateBox", esoaVar29);
+        ekgiVar.i("DeleteBox", esoaVar30);
+        ekgiVar.i("GetBox", esoaVar31);
+        ekgiVar.i("ListBoxes", esoaVar32);
+        ekgiVar.i("ListBoxEvents", esoaVar33);
+        ekgiVar.i("UpdateBox", esoaVar34);
+        ekgiVar.i("ResetBox", esoaVar35);
+        ekgiVar.i("RecoverBox", esoaVar36);
+        ekgiVar.i("CreateParticipant", esoaVar37);
+        ekgiVar.i("BatchCreateParticipants", esoaVar38);
+        ekgiVar.i("DeleteParticipant", esoaVar39);
+        ekgiVar.i("GetParticipant", esoaVar40);
+        ekgiVar.i("BatchGetParticipants", esoaVar41);
+        ekgiVar.i("ListParticipants", esoaVar42);
+        ekgiVar.i("UpdateParticipant", esoaVar43);
+        ekgiVar.i("AddConversationParticipant", esoaVar44);
+        ekgiVar.i("RemoveConversationParticipant", esoaVar45);
+        ekgiVar.i("ListConversationParticipants", esoaVar46);
+        ekgiVar.i("GetConversationParticipantHistory", esoaVar47);
+        ekgiVar.i("BatchDeleteFiles", esoaVar48);
+        ekgiVar.i("CreateFile", esoaVar49);
+        ekgiVar.i("DeleteFile", esoaVar50);
+        ekgiVar.i("GetFile", esoaVar51);
+        ekgiVar.i("ListFiles", esoaVar52);
+        ekgiVar.i("UpdateFile", esoaVar53);
+        ekgiVar.i("GetUserStorageInfo", esoaVar54);
+        ekgiVar.i("ExportUserDataReference", esoaVar55);
+        this.aj = ekgiVar.c();
+        new ekgi().c();
+    }
+
+    @Override // defpackage.esob
+    public final dzfh a() {
+        return ai;
+    }
+
+    @Override // defpackage.esob
+    public final esoa b(String str) {
+        String str2 = ah.a;
+        if (!str.startsWith(str2)) {
+            return null;
+        }
+        String strSubstring = str.substring(str2.length());
+        ekgp ekgpVar = this.aj;
+        if (ekgpVar.containsKey(strSubstring)) {
+            return (esoa) ekgpVar.get(strSubstring);
+        }
+        return null;
+    }
+}

@@ -1,0 +1,37 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+public enum emey implements evst {
+    RCS_MLS_PROVISIONING_UNKNOWN(0),
+    RCS_MLS_PROVISIONING_START(1),
+    RCS_MLS_PROVISIONING_START_FROM_UPI(10),
+    RCS_MLS_PROVISIONING_START_FROM_OTP(11),
+    RCS_MLS_PROVISIONING_START_FROM_CONFIG_REFRESH(12),
+    RCS_MLS_PROVISIONING_ACS_FAILURE(2),
+    RCS_MLS_PROVISIONING_ACS_SUCCESS(3),
+    RCS_MLS_PROVISIONING_FAILED_KEYPAIRS_MISSING(9),
+    RCS_MLS_PROVISIONING_KDS_SKIP_REFRESH_NOT_NEEDED(4),
+    RCS_MLS_PROVISIONING_KDS_CERTIFICATE_CHAIN_REQUEST(21),
+    RCS_MLS_PROVISIONING_KDS_CERTIFICATE_CHAIN_REQUEST_FAILURE(20),
+    RCS_MLS_PROVISIONING_KDS_CERTIFICATE_CHAIN_RESPONSE_FAILURE(5),
+    RCS_MLS_PROVISIONING_KDS_CERTIFICATE_CHAIN_RESPONSE_SUCCESS(6),
+    RCS_MLS_PROVISIONING_KDS_UPLOAD_KEY_PACKAGE_FAILURE(7),
+    RCS_MLS_PROVISIONING_KDS_UPLOAD_KEY_PACKAGE_SUCCESS(8);
+
+    public final int p;
+
+    emey(int i) {
+        this.p = i;
+    }
+
+    @Override // defpackage.evst
+    public final int a() {
+        return this.p;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return Integer.toString(this.p);
+    }
+}

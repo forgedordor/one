@@ -1,0 +1,15 @@
+package defpackage;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+/* compiled from: PG */
+/* loaded from: classes6.dex */
+public final class fgkq {
+    public final Class a;
+    public final Map b = new LinkedHashMap();
+
+    public fgkq(Class cls) {
+        this.a = cls;
+    }
+}

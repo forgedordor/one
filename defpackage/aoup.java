@@ -1,0 +1,14 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes6.dex */
+public final class aoup implements eyif {
+    public static String a() {
+        return "bugle.use_detailed_backup_timing_stats";
+    }
+
+    @Override // defpackage.fcsu
+    public final /* bridge */ /* synthetic */ Object b() {
+        throw null;
+    }
+}

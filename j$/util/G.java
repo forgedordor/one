@@ -1,0 +1,67 @@
+package j$.util;
+
+import j$.util.PrimitiveIterator;
+import java.util.PrimitiveIterator;
+import java.util.function.Consumer;
+import java.util.function.IntConsumer;
+
+/* loaded from: classes9.dex */
+public final /* synthetic */ class G implements PrimitiveIterator.OfInt, InterfaceC0185z {
+    public final /* synthetic */ PrimitiveIterator.OfInt a;
+
+    public /* synthetic */ G(PrimitiveIterator.OfInt ofInt) {
+        this.a = ofInt;
+    }
+
+    public final /* synthetic */ boolean equals(Object obj) {
+        PrimitiveIterator.OfInt ofInt = this.a;
+        if (obj instanceof G) {
+            obj = ((G) obj).a;
+        }
+        return ofInt.equals(obj);
+    }
+
+    @Override // j$.util.PrimitiveIterator
+    public final /* synthetic */ void forEachRemaining(Object obj) {
+        this.a.forEachRemaining((PrimitiveIterator.OfInt) obj);
+    }
+
+    @Override // java.util.Iterator
+    public final /* synthetic */ boolean hasNext() {
+        return this.a.hasNext();
+    }
+
+    public final /* synthetic */ int hashCode() {
+        return this.a.hashCode();
+    }
+
+    @Override // j$.util.PrimitiveIterator.OfInt, java.util.Iterator
+    public final /* synthetic */ Integer next() {
+        return this.a.next();
+    }
+
+    @Override // j$.util.PrimitiveIterator.OfInt
+    public final /* synthetic */ int nextInt() {
+        return this.a.nextInt();
+    }
+
+    @Override // java.util.Iterator
+    public final /* synthetic */ void remove() {
+        this.a.remove();
+    }
+
+    @Override // j$.util.PrimitiveIterator.OfInt, java.util.Iterator, j$.util.InterfaceC0185z
+    public final /* synthetic */ void forEachRemaining(Consumer consumer) {
+        this.a.forEachRemaining((Consumer<? super Integer>) consumer);
+    }
+
+    @Override // java.util.Iterator
+    public final /* synthetic */ Object next() {
+        return this.a.next();
+    }
+
+    @Override // j$.util.PrimitiveIterator.OfInt
+    public final /* synthetic */ void forEachRemaining(IntConsumer intConsumer) {
+        this.a.forEachRemaining(intConsumer);
+    }
+}

@@ -1,0 +1,92 @@
+package defpackage;
+
+import com.google.android.apps.messaging.shared.datamodel.data.datatypes.ConversationIdType;
+import com.google.android.apps.messaging.shared.datamodel.data.datatypes.MessageIdType;
+import j$.util.Optional;
+
+/* compiled from: PG */
+/* loaded from: classes7.dex */
+public final class bcvs {
+    public static final void a(ConversationIdType conversationIdType, cnqj cnqjVar, bvdp bvdpVar, bvdk bvdkVar, avoe avoeVar, Optional optional, cbqz cbqzVar, MessageIdType messageIdType, basd basdVar, aonp aonpVar, ConversationIdType conversationIdType2, dqpg dqpgVar) {
+        bcvr bcvrVar = new bcvr();
+        bcvrVar.aD(dqpgVar.aB());
+        bcvrVar.a = conversationIdType;
+        bcvrVar.b = cnqjVar;
+        bcvrVar.c = null;
+        bcvrVar.d = bvdpVar;
+        bcvrVar.e = null;
+        bcvrVar.f = null;
+        bcvrVar.g = null;
+        bcvrVar.h = null;
+        bcvrVar.i = false;
+        bcvrVar.j = null;
+        bcvrVar.k = null;
+        bcvrVar.l = null;
+        bcvrVar.m = null;
+        bcvrVar.n = 0;
+        bcvrVar.o = bvdkVar;
+        bcvrVar.p = 0L;
+        bcvrVar.q = null;
+        bcvrVar.r = -1L;
+        bcvrVar.s = null;
+        bcvrVar.t = null;
+        bcvrVar.u = null;
+        bcvrVar.v = null;
+        bcvrVar.w = 0;
+        bcvrVar.x = true;
+        bcvrVar.y = null;
+        bcvrVar.z = true;
+        bcvrVar.A = false;
+        bcvrVar.B = 0;
+        bcvrVar.C = -1L;
+        bcvrVar.D = 0;
+        bcvrVar.E = 0;
+        bcvrVar.F = 0;
+        bcvrVar.G = false;
+        bcvrVar.H = false;
+        bcvrVar.I = null;
+        bcvrVar.J = 0L;
+        bcvrVar.K = null;
+        bcvrVar.L = null;
+        bcvrVar.M = null;
+        bcvrVar.N = true;
+        bcvrVar.O = false;
+        bcvrVar.P = avoeVar;
+        bcvrVar.Q = optional;
+        bcvrVar.R = false;
+        bcvrVar.S = false;
+        bcvrVar.T = cbqzVar;
+        bcvrVar.U = 0;
+        bcvrVar.V = messageIdType;
+        bcvrVar.W = 0L;
+        bcvrVar.X = 0L;
+        bcvrVar.Y = 0;
+        bcvrVar.Z = 0;
+        bcvrVar.aa = false;
+        bcvrVar.ab = 0;
+        bcvrVar.ac = 0;
+        bcvrVar.ad = basdVar;
+        bcvrVar.ae = -1;
+        bcvrVar.af = null;
+        bcvrVar.ag = -2;
+        bcvrVar.ah = null;
+        bcvrVar.ai = null;
+        bcvrVar.aj = null;
+        bcvrVar.ak = -1L;
+        bcvrVar.al = 0L;
+        bcvrVar.am = null;
+        bcvrVar.an = null;
+        bcvrVar.ao = null;
+        bcvrVar.ap = null;
+        bcvrVar.aq = null;
+        bcvrVar.ar = null;
+        bcvrVar.as = aonpVar;
+        bcvrVar.at = null;
+        bcvrVar.au = 0L;
+        bcvrVar.av = 0;
+        bcvrVar.aw = null;
+        bcvrVar.ax = 0L;
+        bcvrVar.ay = conversationIdType2;
+        bcvrVar.cM = dqpgVar.aC();
+    }
+}

@@ -1,0 +1,25 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+final class xbg extends fcyv {
+    Object a;
+    /* synthetic */ Object b;
+    final /* synthetic */ xbh c;
+    int d;
+    vvw e;
+    fhaz f;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public xbg(xbh xbhVar, fcxy fcxyVar) {
+        super(fcxyVar);
+        this.c = xbhVar;
+    }
+
+    @Override // defpackage.fcyt
+    public final Object b(Object obj) {
+        this.b = obj;
+        this.d |= Integer.MIN_VALUE;
+        return this.c.c(null, null, null, this);
+    }
+}

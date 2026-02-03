@@ -1,0 +1,57 @@
+package defpackage;
+
+import android.view.MotionEvent;
+import android.view.View;
+import com.google.android.libraries.smartmessaging.expressivetext.impl.ExpressiveTextContext;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+public final class ebti implements View.OnTouchListener {
+    private final ExpressiveTextContext a;
+
+    public ebti(ExpressiveTextContext expressiveTextContext) {
+        this.a = expressiveTextContext;
+    }
+
+    @Override // android.view.View.OnTouchListener
+    public final boolean onTouch(View view, MotionEvent motionEvent) {
+        view.getClass();
+        motionEvent.getClass();
+        ExpressiveTextContext expressiveTextContext = this.a;
+        if (expressiveTextContext.p()) {
+            switch (motionEvent.getActionMasked()) {
+                case 0:
+                case 9:
+                    expressiveTextContext.n();
+                    return expressiveTextContext.r(motionEvent, motionEvent.getPointerCount() - 1);
+                case 1:
+                case 10:
+                    return expressiveTextContext.q(motionEvent, motionEvent.getPointerCount() - 1);
+                case 2:
+                case 7:
+                    int historySize = motionEvent.getHistorySize();
+                    boolean zT = false;
+                    for (int i = 0; i < historySize; i++) {
+                        int pointerCount = motionEvent.getPointerCount();
+                        for (int i2 = 0; i2 < pointerCount; i2++) {
+                            zT |= expressiveTextContext.t(motionEvent, i2, i);
+                        }
+                    }
+                    ebth ebthVar = new ebth(expressiveTextContext);
+                    int pointerCount2 = motionEvent.getPointerCount();
+                    boolean zBooleanValue = false;
+                    for (int i3 = 0; i3 < pointerCount2; i3++) {
+                        zBooleanValue |= ((Boolean) ebthVar.a(motionEvent, Integer.valueOf(i3))).booleanValue();
+                    }
+                    return zT | zBooleanValue;
+                case 3:
+                    return expressiveTextContext.n();
+                case 5:
+                    return expressiveTextContext.r(motionEvent, motionEvent.getActionIndex());
+                case 6:
+                    return expressiveTextContext.q(motionEvent, motionEvent.getActionIndex());
+            }
+        }
+        return false;
+    }
+}

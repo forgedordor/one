@@ -1,0 +1,133 @@
+package defpackage;
+
+import android.content.Context;
+import android.net.Uri;
+import com.google.android.apps.messaging.shared.datamodel.data.PendingAttachmentData;
+import j$.util.Optional;
+
+/* compiled from: PG */
+/* loaded from: classes7.dex */
+public final class baii {
+    public final fcsu a;
+    public final fcsu b;
+    public final fcsu c;
+    public final fcsu d;
+    public final fcsu e;
+    public final fcsu f;
+    public final fcsu g;
+    public final fcsu h;
+    public final fcsu i;
+    public final fcsu j;
+    public final fcsu k;
+    public final fcsu l;
+    public final fcsu m;
+    public final fcsu n;
+    public final fcsu o;
+    public final fcsu p;
+    public final fcsu q;
+    public final fcsu r;
+    public final fcsu s;
+    public final fcsu t;
+    public final fcsu u;
+    public final fcsu v;
+    public final fcsu w;
+    public final fcsu x;
+    public final fcsu y;
+    private final fcsu z;
+
+    public baii(fcsu fcsuVar, fcsu fcsuVar2, fcsu fcsuVar3, fcsu fcsuVar4, fcsu fcsuVar5, fcsu fcsuVar6, fcsu fcsuVar7, fcsu fcsuVar8, fcsu fcsuVar9, fcsu fcsuVar10, fcsu fcsuVar11, fcsu fcsuVar12, fcsu fcsuVar13, fcsu fcsuVar14, fcsu fcsuVar15, fcsu fcsuVar16, fcsu fcsuVar17, fcsu fcsuVar18, fcsu fcsuVar19, fcsu fcsuVar20, fcsu fcsuVar21, fcsu fcsuVar22, fcsu fcsuVar23, fcsu fcsuVar24, fcsu fcsuVar25, fcsu fcsuVar26, fcsu fcsuVar27, fcsu fcsuVar28) {
+        fcsuVar.getClass();
+        this.a = fcsuVar;
+        fcsuVar2.getClass();
+        this.b = fcsuVar2;
+        fcsuVar3.getClass();
+        this.c = fcsuVar3;
+        fcsuVar4.getClass();
+        this.d = fcsuVar4;
+        fcsuVar5.getClass();
+        this.e = fcsuVar5;
+        fcsuVar6.getClass();
+        this.f = fcsuVar6;
+        fcsuVar7.getClass();
+        this.g = fcsuVar7;
+        fcsuVar8.getClass();
+        this.h = fcsuVar8;
+        fcsuVar9.getClass();
+        this.i = fcsuVar9;
+        fcsuVar10.getClass();
+        fcsuVar11.getClass();
+        this.j = fcsuVar11;
+        this.k = fcsuVar12;
+        fcsuVar13.getClass();
+        this.l = fcsuVar13;
+        fcsuVar14.getClass();
+        this.m = fcsuVar14;
+        fcsuVar15.getClass();
+        this.n = fcsuVar15;
+        fcsuVar16.getClass();
+        this.o = fcsuVar16;
+        fcsuVar17.getClass();
+        this.p = fcsuVar17;
+        fcsuVar18.getClass();
+        this.q = fcsuVar18;
+        fcsuVar19.getClass();
+        this.r = fcsuVar19;
+        fcsuVar20.getClass();
+        this.s = fcsuVar20;
+        fcsuVar21.getClass();
+        this.t = fcsuVar21;
+        fcsuVar22.getClass();
+        this.z = fcsuVar22;
+        fcsuVar23.getClass();
+        this.u = fcsuVar23;
+        fcsuVar24.getClass();
+        this.v = fcsuVar24;
+        fcsuVar25.getClass();
+        fcsuVar26.getClass();
+        this.w = fcsuVar26;
+        fcsuVar27.getClass();
+        this.x = fcsuVar27;
+        fcsuVar28.getClass();
+        this.y = fcsuVar28;
+    }
+
+    public final PendingAttachmentData a(String str, Uri uri, elha elhaVar) {
+        cqxl cqxlVar = (cqxl) this.a.b();
+        cqxlVar.getClass();
+        Context context = (Context) this.b.b();
+        context.getClass();
+        cqmp cqmpVar = (cqmp) this.c.b();
+        cqmpVar.getClass();
+        cmum cmumVar = (cmum) this.d.b();
+        cmumVar.getClass();
+        cqmz cqmzVar = (cqmz) this.e.b();
+        cqmzVar.getClass();
+        bahv bahvVar = (bahv) this.f.b();
+        bahvVar.getClass();
+        bxfu bxfuVar = (bxfu) this.g.b();
+        bxfuVar.getClass();
+        cmtv cmtvVar = (cmtv) this.i.b();
+        cmtvVar.getClass();
+        baii baiiVar = (baii) this.z.b();
+        baiiVar.getClass();
+        cqsu cqsuVar = (cqsu) this.j.b();
+        cqsuVar.getClass();
+        cogw cogwVar = (cogw) this.k.b();
+        cogwVar.getClass();
+        crqx crqxVar = (crqx) this.l.b();
+        crqxVar.getClass();
+        cqok cqokVar = (cqok) this.m.b();
+        cqokVar.getClass();
+        Optional optional = (Optional) ((eyig) this.n).a;
+        cqxp cqxpVar = (cqxp) this.o.b();
+        cqxpVar.getClass();
+        eosc eoscVar = (eosc) this.p.b();
+        eoscVar.getClass();
+        apsl apslVar = (apsl) this.q.b();
+        apslVar.getClass();
+        elhaVar.getClass();
+        aqbx aqbxVar = (aqbx) this.s.b();
+        aqbxVar.getClass();
+        return new PendingAttachmentData(cqxlVar, context, cqmpVar, cmumVar, cqmzVar, bahvVar, bxfuVar, this.h, cmtvVar, baiiVar, cqsuVar, cogwVar, crqxVar, cqokVar, optional, cqxpVar, eoscVar, apslVar, this.r, null, str, uri, null, -1, -1, null, null, -1L, elhaVar, -1L, null, null, null, aqbxVar);
+    }
+}

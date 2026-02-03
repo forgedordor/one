@@ -1,0 +1,15 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes5.dex */
+final class elpm implements evsv {
+    static final evsv a = new elpm();
+
+    private elpm() {
+    }
+
+    @Override // defpackage.evsv
+    public final boolean a(int i) {
+        return (i != 0 ? i != 1 ? i != 2 ? null : elpn.SHOWN : elpn.DISMISS : elpn.UNKNOWN_EVENT_TYPE) != null;
+    }
+}
